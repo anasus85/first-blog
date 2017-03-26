@@ -21,7 +21,8 @@ h1, h2, h3, h4 {
 .date {
     color: #D3D3D3;
     font-family: cursive
-}
+    float: right;
+    }
 
 .save {
     float: right;
