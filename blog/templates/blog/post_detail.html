@@ -11,9 +11,10 @@
 	<a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}"><span class="glyphicon glyphicon-pencil"></span></a>
 	{% endif %}
         <h1>{{ post.title }}</h1>
-        <p>{{ post.text|linebreaksbr }}</p>
-	<div class="date">
+        <div class="date">
 	{{ post.created_date }}
 	</div>
+	<p>{{ post.text|linebreaksbr }}</p>
+	
     </div>
 {% endblock %}
